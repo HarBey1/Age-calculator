@@ -25,10 +25,4 @@
       document.getElementById("age").innerHTML = "Your are "+y+ " Years "+m+" Months " +d+" Days Old"; 
 
   }
-  hole = document.getElementsByTagName("body");
-var game = document.getElementById("game");
-hole.addEventListener("animationiteration",RanHole)
-function RanHole(){
-    var random = -((Math.random()*350)+150)
-    hole.style.top= random+"px";
-}
+ 
